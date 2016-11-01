@@ -1,4 +1,4 @@
-package com.hzz.learn.java;
+package com.study.java;
 
 import java.lang.management.ManagementFactory;
 import java.text.SimpleDateFormat;

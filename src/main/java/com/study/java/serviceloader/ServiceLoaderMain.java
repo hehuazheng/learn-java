@@ -1,4 +1,4 @@
-package com.hzz.learn.java.serviceloader;
+package com.study.java.serviceloader;
 
 import java.util.Iterator;
 import java.util.ServiceLoader;

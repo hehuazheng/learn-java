@@ -1,4 +1,4 @@
-package com.hzz.learn.java;
+package com.study.java;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

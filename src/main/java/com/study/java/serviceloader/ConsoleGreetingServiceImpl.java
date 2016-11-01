@@ -1,4 +1,4 @@
-package com.hzz.learn.java.serviceloader;
+package com.study.java.serviceloader;
 
 public class ConsoleGreetingServiceImpl implements GreetingService {
 
