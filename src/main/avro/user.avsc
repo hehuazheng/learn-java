@@ -1,0 +1,18 @@
+{
+    "namespace":"study.avro",
+    "type":"record",
+    "name":"User",
+    "fields":[
+        {
+            "name":"name",
+            "type":"string"
+        },
+        {
+            "name":"favoriteNumber",
+            "type":[
+                "int",
+                "null"
+               ]
+        }
+    ]
+}
