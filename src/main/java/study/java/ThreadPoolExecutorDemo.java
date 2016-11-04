@@ -1,4 +1,4 @@
-package com.study.java;
+package study.java;
 
 import java.util.Date;
 import java.util.concurrent.ExecutorService;

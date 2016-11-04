@@ -1,4 +1,4 @@
-package com.study.java;
+package study.java;
 
 import java.lang.management.ManagementFactory;
 import java.text.SimpleDateFormat;

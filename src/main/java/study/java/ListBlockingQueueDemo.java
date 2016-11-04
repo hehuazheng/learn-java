@@ -1,4 +1,4 @@
-package com.study.java;
+package study.java;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

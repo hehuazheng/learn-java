@@ -1,4 +1,4 @@
-package com.study.apache.commons;
+package study.apache.commons;
 
 import java.util.Date;
 

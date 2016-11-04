@@ -1,4 +1,4 @@
-package com.study.java;
+package study.java;
 
 public class Test {
 

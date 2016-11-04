@@ -1,4 +1,4 @@
-package com.study.http.ning;
+package study.http.ning;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;

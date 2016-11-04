@@ -1,4 +1,4 @@
-package com.study.log4j;
+package study.log4j;
 
 import org.apache.log4j.AppenderSkeleton;
 import org.apache.log4j.spi.LoggingEvent;

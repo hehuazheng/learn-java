@@ -1,4 +1,4 @@
-package com.study.java.serviceloader;
+package study.java.serviceloader;
 
 import java.util.Iterator;
 import java.util.ServiceLoader;

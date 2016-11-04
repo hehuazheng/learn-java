@@ -1,4 +1,4 @@
-package com.study.http.ning;
+package study.http.ning;
 
 import java.security.SecureRandom;
 import java.security.cert.CertificateException;

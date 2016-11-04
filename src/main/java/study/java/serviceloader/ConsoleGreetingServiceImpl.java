@@ -1,4 +1,4 @@
-package com.study.java.serviceloader;
+package study.java.serviceloader;
 
 public class ConsoleGreetingServiceImpl implements GreetingService {
 
