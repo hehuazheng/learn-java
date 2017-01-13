@@ -1,11 +1,11 @@
 package study.kafka;
 
-import java.util.Arrays;
-import java.util.Properties;
-
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
+
+import java.util.Arrays;
+import java.util.Properties;
 
 public class KafkaConsumerDemo {
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class KafkaConsumerDemo {
 				"org.apache.kafka.common.serialization.StringDeserializer");
 		props.put("value.deserializer",
 				"org.apache.kafka.common.serialization.StringDeserializer");
-		KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
+		KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
 		consumer.subscribe(Arrays.asList("my-topic"));
 		while (true) {
 			ConsumerRecords<String, String> records = consumer.poll(100);
