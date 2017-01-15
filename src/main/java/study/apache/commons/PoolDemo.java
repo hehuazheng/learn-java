@@ -6,8 +6,6 @@ import org.apache.commons.pool.KeyedPoolableObjectFactory;
 import org.apache.commons.pool.PoolableObjectFactory;
 import org.apache.commons.pool.impl.GenericObjectPool;
 
-import com.hhz.util.DateUtils;
-
 public class PoolDemo {
 	
 	public static void main(String[] args) throws Exception {
@@ -128,6 +126,6 @@ class MyKeyedPoolableObjectFactory implements KeyedPoolableObjectFactory<String,
 
 class Connection {
 	public void show(String val) {
-		System.out.println(DateUtils.toLongFormat(new Date()) + " value: " + val);
+		System.out.println(" value: " + val);
 	}
 }
