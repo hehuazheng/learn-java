@@ -9,6 +9,7 @@ public class ServiceLoaderMain {
 		Iterator<GreetingService> itor = sl.iterator();
 		while(itor.hasNext()) {
 			GreetingService gs = itor.next();
+			System.out.println(gs.getClass());
 			gs.sayHello("aa");
 		}
 		System.out.println("end");
