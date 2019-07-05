@@ -12,7 +12,7 @@ public class JsonUtils {
     private static ObjectMapper objectMapper = new ObjectMapper();
 
     static {
-        objectMapper.setSerializationInclusion(Inclusion.NON_NULL);
+//        objectMapper.setSerializationInclusion(Inclusion.NON_NULL);
         objectMapper.configure(JsonParser.Feature.ALLOW_COMMENTS, true);
         objectMapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_FIELD_NAMES,
                 true);
