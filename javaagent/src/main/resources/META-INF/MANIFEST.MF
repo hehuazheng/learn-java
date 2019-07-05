@@ -1,4 +1,5 @@
 Premain-Class: com.hzz.MyAgent
+Agent-Class: com.hzz.MyAgent
 Can-Redefine-Classes: true
 Can-Retransform-Classes: true
 Main-Class: com.hzz.App
