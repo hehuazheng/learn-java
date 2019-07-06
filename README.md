@@ -16,3 +16,6 @@ java -jar -javaagent:target/javaagent-1.0-SNAPSHOT.jar target/javaagent-1.0-SNAP
 ``` 
 
 二 动态加载
+
+
+### jaeger 分布式日志追踪
