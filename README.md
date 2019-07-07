@@ -12,7 +12,7 @@ MyClass.class.getCanonicalName().replace('.', '/').equals(className)
 
 - 修改启动命令
 ```
-java -jar -javaagent:target/javaagent-1.0-SNAPSHOT.jar target/javaagent-1.0-SNAPSHOT.jar
+java -jar -javaagent:target/javaagent-1.0-SNAPSHOT-jar-with-dependencies.jar target/javaagent-1.0-SNAPSHOT.jar
 ``` 
 
 二 动态加载
