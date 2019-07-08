@@ -17,5 +17,20 @@ java -jar -javaagent:target/javaagent-1.0-SNAPSHOT-jar-with-dependencies.jar tar
 
 二 动态加载
 
+### javassist
+- 给类追加注解
+```
+ClassPool cp = ClassPool.getDefault();
+CtClass cc = cp.get("com.hzz.MyClass");
+ClassFile ccFile = cc.getClassFile();
+AnnotationsAttribute attr = new AnnotationsAttribute(ccFile.getConstPool(), AnnotationsAttribute.visibleTag);
+javassist.bytecode.annotation.Annotation anno = new javassist.bytecode.annotation.Annotation(Transformed.class.getName(), ccFile.getConstPool());
+attr.setAnnotation(anno);
+ccFile.addAttribute(attr);
+
+byte[] byteCodes = cc.toBytecode();
+cc.detach();
+return byteCodes;
+```
 
 ### jaeger 分布式日志追踪
